@@ -7,8 +7,8 @@ import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import uuid from 'react-uuid';
 import React from 'react';
-import { Container, Offcanvas, Nav, MenuElements } from 'react-bootstrap';
-import MenuElements from '../components/MenuElements';
+import { Container, Offcanvas, Nav} from 'react-bootstrap';
+import MenuElementos from '../components/MenuElementos';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class Menu extends React.Component {
       <div>
         <Navbar bg="light" variant="light" expand={false}>
           <Container fluid>
-            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+            <Navbar.Brand href="#">Menu</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar" />
             <Navbar.Offcanvas
               id="offcanvasNavbar"
@@ -29,12 +29,12 @@ class Menu extends React.Component {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id="offcanvasNavbarLabel">
-                  Offcanvas
+                  Menu Examen
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  {MenuElements.map((item) => {
+                  {MenuElementos.map((item) => {
                     return (
                       <Nav.Link key={uuid()} as={Link} to={item.path}>
                         {item.title}
