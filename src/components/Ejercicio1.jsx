@@ -10,6 +10,7 @@ class Ejercicio1 extends React.Component {
       <div id="ej1">
         <h2>Ejercicio 1</h2>
         <ul>
+          <li> <h3>En Menu.jsx, App.js y PaginasApp.js está lo que debería ser este ejercicio, pero el map me aparecía undefined todo el rato y no me dejaba proseguir con las actividades.  </h3> </li>
           <li>
            Sustituye el título del examen por componente llamado <b>Menu</b> que implemente una barra de navegación que permita cambiar 
            entre los distintos ejercicios como si de distintas páginas se tratase. Se ha de cumplir lo siguiente:

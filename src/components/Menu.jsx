@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import uuid from 'react-uuid';
 import React from 'react';
 import { Container, Offcanvas, Nav} from 'react-bootstrap';
-import MenuElementos from '../components/MenuElementos';
+import PaginasApp from '../src/data/PaginasApp';
 
 class Menu extends React.Component {
   constructor(props) {

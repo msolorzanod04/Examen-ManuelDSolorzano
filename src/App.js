@@ -5,7 +5,7 @@ import Ejercicio3 from './components/Ejercicio3';
 import Menu from './components/Menu';
 import React from 'react';
 import Router from 'react';
-import MenuElementos from './components/MenuElementos';
+import PaginasApp from './src/data/PaginasApp';
 
 function App() {
   return (
